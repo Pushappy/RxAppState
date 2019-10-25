@@ -21,9 +21,9 @@
 		082D76BE1EFBC24400A4E97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082D76C61EFBC28A00A4E97B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		082D76C71EFBC28A00A4E97B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		082D76CC1EFBC2BE00A4E97B /* RxApplicationDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxApplicationDelegateProxy.swift; path = Pod/Classes/RxApplicationDelegateProxy.swift; sourceTree = SOURCE_ROOT; };
-		082D76CD1EFBC2BE00A4E97B /* UIApplication+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "Pod/Classes/UIApplication+Rx.swift"; sourceTree = SOURCE_ROOT; };
-		A46E5C60231D7158002DD06E /* UIViewController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "Pod/Classes/UIViewController+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		082D76CC1EFBC2BE00A4E97B /* RxApplicationDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxApplicationDelegateProxy.swift; path = Sources/RxAppState/RxApplicationDelegateProxy.swift; sourceTree = SOURCE_ROOT; };
+		082D76CD1EFBC2BE00A4E97B /* UIApplication+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "Sources/RxAppState/UIApplication+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		A46E5C60231D7158002DD06E /* UIViewController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "Sources/RxAppState/UIViewController+Rx.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,8 @@
 				082D76BD1EFBC24400A4E97B /* RxAppState.h */,
 				082D76BE1EFBC24400A4E97B /* Info.plist */,
 			);
-			path = RxAppState;
+			name = RxAppState;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		082D76C51EFBC28A00A4E97B /* Frameworks */ = {
